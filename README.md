@@ -1,5 +1,9 @@
 A helper CLI to help with retagging process of ECR images i.e. moving 'latest' tag from image A to image B
 
+## Download
+
+Get the latest version [here](https://github.com/zulhfreelancer/ecr-image-retag/releases)
+
 ## Usage
 
 ```
