@@ -17,6 +17,7 @@ Flags:
   -p, --profile string            The AWS profile name from ~/.aws/credentials file
   -r, --region string             The AWS region where the ECR repo is located
   -t, --tag-name string           The tag name that will be dropped from current images and to be applied to --new-image-digest
+  -v, --version                   version for ecr-image-retag
 ```
 
 ## Example
