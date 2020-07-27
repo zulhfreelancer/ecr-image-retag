@@ -12,6 +12,11 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var (
+	// Version is ecr-image-retag CLI version
+	Version string
+)
+
 // AWS Client
 var sess *session.Session
 
