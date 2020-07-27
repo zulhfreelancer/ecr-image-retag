@@ -60,7 +60,7 @@ To make it more secure, the wildcard for the `Resource` key above can be replace
 
 ## Previous Releases
 
-If you need to refer at specific version of this package, it's available [here](#)
+If you need to refer at specific version of this package, it's available [here](https://github.com/zulhfreelancer/ecr-image-retag/releases)
 
 ## Contribute
 
