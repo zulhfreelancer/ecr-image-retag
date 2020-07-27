@@ -58,6 +58,12 @@ The user for the `--profile` should have the following permissions in its IAM po
 
 To make it more secure, the wildcard for the `Resource` key above can be replaced with a complete ARN i.e. `arn:aws:ecr:ap-southeast-1:AWS_ACCOUNT_ID:repository/ECR_REPO_NAME`.
 
+## Release Process
+
+1. Update version in the _VERSION_ file
+2. Run _release.sh_ file
+3. Create a release in GitHub web UI and upload the binaries from _dist_ folder
+
 ## Previous Releases
 
 If you need to refer at specific version of this package, it's available [here](https://github.com/zulhfreelancer/ecr-image-retag/releases)
