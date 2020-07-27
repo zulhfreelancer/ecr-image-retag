@@ -12,10 +12,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var (
-	// Version is ecr-image-retag CLI version
-	Version string
-)
+// Version is ecr-image-retag CLI version
+var cliVersion string
 
 // AWS Client
 var sess *session.Session
@@ -38,8 +36,9 @@ var ecrRepo string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "ecr-image-retag",
-	Short: "A helper CLI to help with retagging process of ECR images i.e. moving 'latest' tag from image A to image B",
+	Use:     "ecr-image-retag",
+	Short:   "A helper CLI to help with retagging process of ECR images i.e. moving 'latest' tag from image A to image B",
+	Version: cliVersion,
 
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
